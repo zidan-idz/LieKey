@@ -1,3 +1,4 @@
+# /LieKey/app.py
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 from datetime import datetime
@@ -103,6 +104,8 @@ def index():
 
     history = get_history()
     return render_template("index.html", result=result, history=history)
+
+
 
 if __name__ == "__main__":
     init_db()
