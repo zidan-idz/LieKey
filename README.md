@@ -38,33 +38,8 @@ It features a simple and responsive interface built with **Bootstrap 5**, along 
 [https://liekey.pythonanywhere.com/](https://liekey.pythonanywhere.com/)
 
 **Source Code:**  
-- [GitLab Repository](https://gitlab.com/zidan-idz/liekey)  
 - [GitHub Repository](https://github.com/zidan-idz/liekey)
-
----
-
-## • Project Structure
-
-```bash
-LieKey/
-│
-├── app.py              # Main Flask application
-├── history.db          # SQLite database storing encryption/decryption history
-│
-├── templates/          # HTML templates for Flask
-│   └── index.html      # Main user interface
-│
-├── static/             # Static assets (CSS, JS, etc.)
-│   └── style.css       # Custom styling
-│
-├── img/                # Images used in the project
-│   └── logo.png        # Project logo
-│
-├── requirements.txt    # Python dependencies
-├── runtime.txt         # Python runtime version (for deployment)
-└── README.md           # Project documentation
-
-```
+- [GitLab Repository](https://gitlab.com/zidan-idz/liekey)  
 
 ---
 
